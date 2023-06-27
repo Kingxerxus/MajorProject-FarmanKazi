@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Major project - JavaScript Validation Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>JavaScript Form Validation</h2>
+        
+        <!-- form -->
+        <form id="myForm">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="e.g. King"><br/>
+                <span class="error" id="nameError"></span>
+            </div>
+            <div>
+                <label for="email">Email ID:</label>
+                <input type="text" id="email" name="email" placeholder="e.g. example@gmail.com"><br/>
+                <span class="error" id="emailError"></span>
+            </div>
+            <div>
+                <label for="phone">Phone Number:</label>
+                <input type="text" id="phone" name="phone" placeholder="xxxxx xxxxx"><br/>
+                <span class="error" id="phoneError"></span>
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Strong password"><br/>
+                <span class="error" id="passwordError"></span>
+            </div>
+            <div>
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Same strong password"><br/>
+                <span class="error" id="confirmPasswordError"></span>
+            </div>
+            <input type="submit" value="SUBMIT">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
